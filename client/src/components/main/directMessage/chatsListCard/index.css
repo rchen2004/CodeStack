@@ -1,0 +1,8 @@
+.chats-list-card {
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: var(--color-bg-light);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

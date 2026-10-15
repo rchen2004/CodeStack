@@ -1,0 +1,63 @@
+/* client/src/components/main/communities/allCommunitiesPage/index.css */
+
+.community-page {
+  /* align with Collections / Bookmarks / Users */
+  padding: 2.5rem 3rem 3rem;
+
+  font-family: Arial, sans-serif;
+  background-color: var(--color-bg-page);
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.community-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #536dff; /* same as collections */
+  margin: 0 0 0.75rem;
+  position: relative;
+}
+
+/* gradient underline like Notifications */
+.community-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.35rem;
+  width: 60px;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6c5ce7, #a855f7);
+}
+
+.community-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.community-search {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.communities-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.community-error {
+  color: red;
+  margin-top: 1rem;
+}

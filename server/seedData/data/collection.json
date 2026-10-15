@@ -1,0 +1,72 @@
+{
+  "collection1": {
+    "name": "React Best Practices",
+    "description": "A curated list of questions and answers about React best practices, focusing on state management, hooks, and performance optimization.",
+    "questions": ["question1", "question10", "question9"],
+    "username": "reactninja",
+    "isPrivate": false
+  },
+  "collection2": {
+    "name": "JavaScript Essentials",
+    "description": "Core JavaScript concepts every developer should understand, including async patterns, promises, and error handling.",
+    "questions": ["question9", "question5"],
+    "username": "jsdev123",
+    "isPrivate": false
+  },
+  "collection3": {
+    "name": "My Learning Path",
+    "description": "Questions I'm studying to improve my React and JS skills.",
+    "questions": ["question1", "question10", "question6", "question9"],
+    "username": "promisenovice",
+    "isPrivate": true
+  },
+  "collection4": {
+    "name": "Edge Cases and Error Handling",
+    "description": "Important examples of how to handle edge cases, unexpected inputs, and graceful error handling in JavaScript.",
+    "questions": ["question5", "question9"],
+    "username": "edgecaseexpert",
+    "isPrivate": false
+  },
+  "collection5": {
+    "name": "Full-stack Developer Resources",
+    "description": "Helpful questions covering both frontend and backend development topics that I reference regularly.",
+    "questions": ["question1", "question2", "question4", "question6", "question8"],
+    "username": "user123",
+    "isPrivate": false
+  },
+  "collection6": {
+    "name": "Interview Prep",
+    "description": "Common interview questions and answers for JavaScript and React positions.",
+    "questions": ["question1", "question5", "question9", "question10"],
+    "username": "jsdeveloper",
+    "isPrivate": true
+  },
+  "collection7": {
+    "name": "Performance Optimization",
+    "description": "Questions about optimizing performance across the stack - from React rendering to database queries.",
+    "questions": ["question4", "question7", "question10"],
+    "username": "reactninja",
+    "isPrivate": false
+  },
+  "collection8": {
+    "name": "Debugging Techniques",
+    "description": "Resources for effective debugging in JavaScript applications and frameworks.",
+    "questions": ["question5", "question6", "question9"],
+    "username": "jsdev123",
+    "isPrivate": false
+  },
+  "collection9": {
+    "name": "Modern JavaScript",
+    "description": "",
+    "questions": ["question3", "question5", "question9"],
+    "username": "jsdeveloper",
+    "isPrivate": false
+  },
+  "collection10": {
+    "name": "React Favorites",
+    "description": "My personal collection of the most helpful React questions and solutions.",
+    "questions": ["question1", "question6", "question10"],
+    "username": "user123",
+    "isPrivate": true
+  }
+}

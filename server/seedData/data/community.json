@@ -1,0 +1,55 @@
+{
+  "community1": {
+    "name": "React Enthusiasts",
+    "description": "A community dedicated to all things React, from beginner questions to advanced patterns and performance optimizations. Share your projects, ask for help, and collaborate on solving React challenges.",
+    "participants": [
+      "reactexpert",
+      "reactninja",
+      "newbiereactdev",
+      "reactlearner",
+      "frontenddev",
+      "user123",
+      "user345",
+      "typescriptfan",
+      "jsdeveloper"
+    ],
+    "visibility": "PUBLIC",
+    "admin": "reactexpert"
+  },
+  "community2": {
+    "name": "Backend Masters",
+    "description": "For developers focused on server-side technologies, APIs, databases, and infrastructure. Discuss best practices in Node.js, Express, databases, and scaling backend systems.",
+    "participants": [
+      "nodejsdev",
+      "serverdev",
+      "dbmaster",
+      "devopsengineer",
+      "user567",
+      "dbnovice",
+      "edgecaseexpert"
+    ],
+    "visibility": "PUBLIC",
+    "admin": "nodejsdev"
+  },
+  "community3": {
+    "name": "Data Science Hub",
+    "description": "Connect with fellow data scientists and ML engineers. Share insights on Python data processing, visualization, machine learning algorithms, and best practices for handling large datasets.",
+    "participants": ["datascientist", "pythonuser", "user456", "perfoptimizer"],
+    "visibility": "PUBLIC",
+    "admin": "datascientist"
+  },
+  "community4": {
+    "name": "DevOps Specialists",
+    "description": "A space for DevOps engineers to discuss containerization, CI/CD pipelines, infrastructure as code, and cloud deployment strategies. Share your Docker and Kubernetes expertise.",
+    "participants": ["devopsengineer", "dockerbeginner", "user234", "user101"],
+    "visibility": "PUBLIC",
+    "admin": "devopsengineer"
+  },
+  "community5": {
+    "name": "TypeScript Champions",
+    "description": "Private community for TypeScript experts to discuss advanced type systems, compiler optimizations, and enterprise-level TypeScript architecture. By invitation only.",
+    "participants": ["typescriptfan", "reactexpert", "edgecaseexpert", "user345", "webpackwizard"],
+    "visibility": "PRIVATE",
+    "admin": "typescriptfan"
+  }
+}

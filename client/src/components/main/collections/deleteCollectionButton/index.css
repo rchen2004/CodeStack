@@ -1,0 +1,32 @@
+.delete-collection-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.delete-collection-button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.delete-collection-button:hover {
+  background-color: #d32f2f;
+}
+
+.delete-collection-button:active {
+  transform: scale(0.97);
+}
+
+.delete-collection-button:focus {
+  outline: 2px solid #b71c1c;
+  outline-offset: 2px;
+}

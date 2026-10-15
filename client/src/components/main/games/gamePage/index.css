@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-bg-page);
+  margin: 0;
+  padding: 0;
+}
+
+.game-page {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--color-bg-card);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.game-header h1 {
+  font-size: 24px;
+  color: var(--color-text-primary);
+}
+
+.game-status {
+  color: var(--color-text-tertiary);
+  margin-left: 20px;
+}
+
+/* Button Spacing */
+.game-controls,
+.game-details {
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 10px;
+  display: inline-block;
+}
+
+/* Button Specific Classes */
+.btn-create-game,
+.btn-leave-game,
+.btn-refresh-list,
+.btn-join-game {
+  background: var(--color-primary-gradient);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+.btn-create-game:hover,
+.btn-leave-game:hover,
+.btn-refresh-list:hover,
+.btn-join-game:hover {
+  background: linear-gradient(135deg, #5a73e8 0%, #6b42a0 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+button:disabled {
+  background: var(--color-border-medium);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Available Games List */
+.game-list {
+  margin-top: 15px;
+  border-top: 1px solid var(--color-border-light);
+  padding-top: 15px;
+}
+
+.game-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.game-item {
+  border: 1px solid var(--color-border-light);
+  border-radius: 6px;
+  padding: 15px;
+  background: var(--color-bg-light);
+  transition: all 0.2s ease;
+}
+
+.game-item:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+}
+
+.game-item p {
+  margin: 5px 0;
+  color: var(--color-text-secondary);
+}
+
+.game-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.game-item li {
+  background: var(--color-bg-card);
+  margin: 3px 0;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border-light);
+}
+
+.game-item button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+/* Error Message */
+.game-error {
+  color: var(--color-error);
+  font-weight: bold;
+  margin-top: 15px;
+  background-color: var(--color-error-bg);
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 4px solid var(--color-error);
+}

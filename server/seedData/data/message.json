@@ -1,0 +1,62 @@
+{
+  "message1": {
+    "msg": "Hey everyone! What's the best way to handle state in a large React application? Context API or Redux?",
+    "msgFrom": "newbiereactdev",
+    "msgDateTime": "2025-04-22T14:30:15Z",
+    "type": "global"
+  },
+  "message2": {
+    "msg": "It really depends on the complexity. For simpler apps, Context is enough. But once you have complex state management needs, Redux gives you more control with middlewares, etc.",
+    "msgFrom": "reactexpert",
+    "msgDateTime": "2025-04-22T14:32:28Z",
+    "type": "global"
+  },
+  "message3": {
+    "msg": "I've been using Zustand lately and it's a great middle ground. Much simpler than Redux but more powerful than just Context.",
+    "msgFrom": "reactninja",
+    "msgDateTime": "2025-04-22T14:34:52Z",
+    "type": "global"
+  },
+  "message4": {
+    "msg": "Speaking of state management, has anyone tried the new Server Components in React? How does that change the approach to state?",
+    "msgFrom": "jsdeveloper",
+    "msgDateTime": "2025-04-22T14:38:17Z",
+    "type": "global"
+  },
+  "message5": {
+    "msg": "Server Components are game-changing! They can access databases and APIs directly without client-side fetching. But you still need client state for interactive elements.",
+    "msgFrom": "frontenddev",
+    "msgDateTime": "2025-04-22T14:41:05Z",
+    "type": "global"
+  },
+  "message6": {
+    "msg": "Any Python devs here? I'm trying to optimize a data processing pipeline that's taking forever to run on large datasets.",
+    "msgFrom": "pythonuser",
+    "msgDateTime": "2025-04-22T14:45:33Z",
+    "type": "global"
+  },
+  "message7": {
+    "msg": "Have you tried NumPy's vectorized operations? They're way faster than Python loops. Also look into Dask for parallel processing if your dataset doesn't fit in memory.",
+    "msgFrom": "datascientist",
+    "msgDateTime": "2025-04-22T14:48:22Z",
+    "type": "global"
+  },
+  "message8": {
+    "msg": "Quick question for anyone using Docker: what's your preferred way to handle secrets in production? Environment variables or Docker secrets?",
+    "msgFrom": "dockerbeginner",
+    "msgDateTime": "2025-04-22T14:52:40Z",
+    "type": "global"
+  },
+  "message9": {
+    "msg": "Definitely Docker secrets for anything sensitive in production. Env vars can be leaked through logs or error messages. For Kubernetes, use their secrets system instead.",
+    "msgFrom": "devopsengineer",
+    "msgDateTime": "2025-04-22T14:55:18Z",
+    "type": "global"
+  },
+  "message10": {
+    "msg": "Just a heads up to everyone - we're organizing a virtual meetup next Friday to discuss web performance optimization techniques. Drop me a DM if you're interested in joining or presenting!",
+    "msgFrom": "perfoptimizer",
+    "msgDateTime": "2025-04-22T15:01:47Z",
+    "type": "global"
+  }
+}

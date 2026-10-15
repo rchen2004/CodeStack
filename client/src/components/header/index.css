@@ -1,0 +1,186 @@
+/* Header Container */
+/* Header Container */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background: var(--color-primary-gradient);
+  box-shadow: var(--shadow-primary);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  gap: 1.5rem;
+}
+
+
+/* Logo/Title */
+.title {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text-white);
+  white-space: nowrap;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform var(--transition-base);
+}
+
+.title:hover {
+  transform: scale(1.02);
+}
+
+.header-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.header-title-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Search Bar - fixed-ish width in the center */
+#searchBar {
+  flex: 0 0 500px;
+  max-width: 100%;
+  margin: 0 1.5rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.9375rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--color-text-primary);
+  transition: all var(--transition-slow);
+  outline: none;
+}
+
+#searchBar:focus {
+  background: var(--color-bg-card);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: var(--shadow-lg);
+}
+
+#searchBar::placeholder {
+  color: var(--color-text-muted);
+}
+
+/* Button Container */
+.header-buttons {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+/* Buttons - Modern Style */
+.logout-button,
+.view-profile-button {
+  padding: 0.625rem 1.25rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--color-text-white);
+  backdrop-filter: blur(10px);
+}
+
+.logout-button:hover,
+.view-profile-button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.logout-button:active,
+.view-profile-button:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Alternative: Solid White Buttons */
+.view-profile-button {
+  background: var(--color-bg-card);
+  color: var(--color-primary);
+  border-color: transparent;
+}
+
+.view-profile-button:hover {
+  background: var(--color-bg-light);
+  color: var(--color-primary-dark);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: 0.75rem 1rem;
+    gap: 0.75rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .header-logo {
+    height: 36px;
+  }
+
+  .header-title-text {
+    font-size: 1.25rem;
+  }
+
+  #searchBar {
+    flex: 0 0 200px;
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+    margin: 0 0.75rem;
+  }
+
+  .logout-button,
+  .view-profile-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .header-logo {
+    height: 32px;
+  }
+
+  .header-title-text {
+    font-size: 1.125rem;
+  }
+
+  #searchBar {
+    order: 3;
+    flex: 1 1 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .header-buttons {
+    gap: 0.5rem;
+  }
+
+  .logout-button,
+  .view-profile-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8125rem;
+  }
+}

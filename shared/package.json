@@ -1,0 +1,28 @@
+{
+  "name": "@fake-stack-overflow/shared",
+  "version": "1.0.0",
+  "types": "./types/types.d.ts",
+  "scripts": {
+    "watch": "tsc --build --watch",
+    "build": "tsc --build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-import-resolver-typescript": "^4.3.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "express": "^4.17.21",
+    "prettier": "^3.5.3",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.29.0"
+  }
+}

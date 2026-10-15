@@ -1,0 +1,42 @@
+{
+  "tag1": {
+    "name": "javascript",
+    "description": "A high-level, interpreted programming language used for web development."
+  },
+  "tag2": {
+    "name": "python",
+    "description": "A versatile programming language known for its readability and wide range of applications."
+  },
+  "tag3": {
+    "name": "react",
+    "description": "A JavaScript library for building user interfaces, particularly single-page applications."
+  },
+  "tag4": {
+    "name": "node.js",
+    "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine, used for server-side scripting."
+  },
+  "tag5": {
+    "name": "html",
+    "description": "The standard markup language for creating web pages and web applications."
+  },
+  "tag6": {
+    "name": "css",
+    "description": "A stylesheet language used for describing the presentation of a document written in HTML."
+  },
+  "tag7": {
+    "name": "mongodb",
+    "description": "A NoSQL database known for its scalability and flexibility in handling large volumes of data."
+  },
+  "tag8": {
+    "name": "express",
+    "description": "A minimal and flexible Node.js web application framework that provides a robust set of features."
+  },
+  "tag9": {
+    "name": "typescript",
+    "description": "A superset of JavaScript that adds static typing and modern features to the language."
+  },
+  "tag10": {
+    "name": "git",
+    "description": "A distributed version control system to track changes in source code during software development."
+  }
+}

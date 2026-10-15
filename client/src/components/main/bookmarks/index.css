@@ -1,0 +1,110 @@
+.bookmarks-page {
+  /* match the general content pages instead of centering/narrowing */
+  padding: 2.5rem 3rem 3rem;
+
+  background-color: var(--color-bg-page);
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.bookmarks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookmarks-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #536dff;
+  margin: 0 0 0.75rem;
+  position: relative;
+}
+
+.bookmarks-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.35rem;
+  width: 60px;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6c5ce7, #a855f7);
+}
+
+.bookmark-section-title {
+  font-size: 1.5rem;
+  color: var(--color-text-primary);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.bookmarks-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.bookmark-card {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border-light);
+  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.bookmark-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(102, 126, 234, 0.15);
+  border-color: var(--color-primary);
+}
+
+.bookmark-name {
+  font-size: 1.2rem;
+  color: var(--color-text-primary);
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.bookmark-description {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+
+    display: -webkit-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+}
+
+.bookmark-meta {
+  font-size: 0.85rem;
+  color: var(--color-text-tertiary);
+}
+
+.no-bookmarks {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--color-text-tertiary);
+  margin-top: 2rem;
+}
+
+.bookmark-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.bookmark-card-header .bookmark-name {
+  margin-bottom: 0;
+}

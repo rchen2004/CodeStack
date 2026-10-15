@@ -1,0 +1,11 @@
+/* Question list container */
+.question_list {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Remove old bottom border strip */
+.question_list:last-child {
+  border-bottom: none;
+}
